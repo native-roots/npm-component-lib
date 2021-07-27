@@ -1,10 +1,10 @@
 {
-  "name": "npm-react-typescript-template",
+  "name": "npm-component-lib",
   "version": "1.0.0",
-  "description": "A template for publishing a React + TypeScript package to npm",
+  "description": "Native Roots Shared Component Library",
   "author": "ovieokeh",
   "license": "Apache-2.0",
-  "repository": "ovieokeh/npm-react-typescript-template",
+  "repository": "native-roots/npm-component-lib",
   "main": "dist/index.js",
   "engines": {
     "node": ">=8",
