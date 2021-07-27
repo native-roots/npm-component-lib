@@ -1,10 +1,13 @@
 {
-  "name": "npm-component-lib",
+  "name": "@nativeroots/npm-component-lib",
   "version": "1.0.1",
   "description": "Native Roots Shared Component Library",
   "author": "ovieokeh",
   "license": "Apache-2.0",
-  "repository": "native-roots/npm-component-lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/native-roots/npm-component-lib.git"
+  },
   "main": "dist/index.js",
   "engines": {
     "node": ">=8",
@@ -38,5 +41,9 @@
     "react",
     "typescript",
     "npm"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/native-roots/npm-component-lib/issues"
+  },
+  "homepage": "https://github.com/native-roots/npm-component-lib#readme"
 }
