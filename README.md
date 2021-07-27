@@ -1,6 +1,6 @@
-# npm-react-typescript-template
+# Native Roots NPM Shared Component Library
 
-A template for publishing a React + TypeScript package to npm
+A library of shared components across Native Roots Web Apps
 
 ## How to use
 
@@ -31,4 +31,3 @@ Then publish your package by running
 
 - `npm publish`
 
-### Happy Building ♡
