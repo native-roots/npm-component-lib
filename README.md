@@ -31,3 +31,17 @@ Then publish your package by running
 
 - `npm publish`
 
+
+
+## Using this package locally (not directly from the NPM Directory)
+
+Start by running `npm run build` from the root of this project
+
+Then run `npm link` to setup the local linking mechanism
+
+Run `npm link /path/to/project/we/want/to/use/this/lib/in/node_modules/react` from the root of this directory. 
+It is a necessary command to ensure that this package and the project we intend to use it in are on the same version of React
+
+Run `npm link npm-component-lib` in the root of the project that we want to use this package in.
+
+Import the components in that project and use accordingly.
